@@ -9,3 +9,6 @@
 
 # Local dev helper — not part of the deploy
 /.claude/
+
+# Outreach drafts — never deploy these
+/outreach/
