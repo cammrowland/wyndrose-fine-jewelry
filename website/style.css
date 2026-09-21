@@ -1362,6 +1362,24 @@ html.no-js .site { visibility: visible; }
 .footer__link:hover { color: var(--gold); }
 .footer__link:hover::after { transform: scaleX(1); }
 
+/* Address links wrap to two lines, so their underline is drawn with
+   text-decoration rather than the absolutely-positioned bar the
+   single-line .link / .footer__link variants use. */
+.link--address,
+.footer__link--address {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  text-decoration-color: transparent;
+  transition: color var(--t-micro) var(--e-default),
+              text-decoration-color var(--t-micro) var(--e-default);
+}
+.link--address::after,
+.footer__link--address::after { content: none; }
+.link--address:hover { color: var(--claret-deep); text-decoration-color: var(--gold); }
+.footer__link--address:hover { color: var(--gold); text-decoration-color: var(--gold); }
+
+
 .footer__base {
   position: relative;
   margin-top: var(--s-8);
