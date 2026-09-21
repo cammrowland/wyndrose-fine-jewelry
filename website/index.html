@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Wyndrose Fine Jewelry &middot; Downtown Cedarburg, Wisconsin</title>
+<meta name="description" content="Wyndrose Fine Jewelry is a family owned, full-service jeweler on Washington Avenue in historic downtown Cedarburg, Wisconsin. Custom design, repair, appraisals, and a changing selection of fine jewelry. Est. 1988.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  document.documentElement.classList.remove('no-js');
+  try {
+    if (sessionStorage.getItem('fn-unlocked') === '1') {
+      document.documentElement.classList.add('is-unlocked');
+    }
+  } catch (e) {
+    document.documentElement.classList.add('is-unlocked');
+  }
+</script>
+</head>
+<body>
+
+<!-- ============ PASSWORD GATE ============ -->
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+  <div class="gate__panel">
+    <p class="gate__wordmark" id="gate-title">Wyndrose</p>
+    <p class="gate__sub">Speculative redesign. Enter password to view.</p>
+    <form class="gate__form" id="gate-form" autocomplete="off">
+      <label class="u-sr-only" for="gate-input">Password</label>
+      <input class="gate__input" id="gate-input" type="password" name="password" placeholder="Password" autocomplete="off" spellcheck="false">
+      <button class="btn btn--primary gate__btn" type="submit">Enter</button>
+    </form>
+  </div>
+</div>
+
+<div class="site" id="site">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="wordmark" href="#top" aria-label="Wyndrose Fine Jewelry, home">
+      <!-- logo.png is white on transparent; the header recolours it to claret
+           through a CSS mask. The type lockup below is the no-mask fallback. -->
+      <span class="wordmark__mark"></span>
+      <span class="wordmark__text">
+        <span class="wordmark__name">Wyndrose</span>
+        <span class="wordmark__sub">Fine Jewelry</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#custom-design">Custom Design</a></li>
+        <li><a class="nav__link" href="#services">Services</a></li>
+        <li><a class="nav__link" href="#selection">Selection</a></li>
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#visit">Visit</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <a class="header__tel" href="tel:+12623751920">262-375-1920</a>
+      <a class="btn btn--primary btn--sm header__cta" href="#visit">Visit the Shop</a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE NAV ============ -->
+<div class="mobilenav" id="mobile-nav" aria-hidden="true">
+  <div class="mobilenav__inner">
+    <nav aria-label="Mobile">
+      <ul class="mobilenav__list">
+        <li><a href="#custom-design">Custom Design</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#selection">Selection</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+    </nav>
+    <div class="mobilenav__foot">
+      <a class="mobilenav__tel" href="tel:+12623751920">262-375-1920</a>
+      <a class="mobilenav__mail" href="mailto:info@wyndrosefinejewelry.com">info@wyndrosefinejewelry.com</a>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <img class="hero__img" src="images/custom-design-bench.jpg" alt="A hand lifting a loose yellow sapphire with tweezers from a case of colored gemstones at Wyndrose Fine Jewelry." fetchpriority="high" decoding="async">
+  <div class="hero__scrim"></div>
+  <div class="hero__grain" aria-hidden="true"></div>
+  <div class="hero__content">
+    <h1 class="hero__title">A jeweler in downtown Cedarburg since&nbsp;1988.</h1>
+    <p class="hero__sub">Engagement rings, wedding bands, repairs, appraisals, and pieces designed from scratch. Come in and see them.</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="#visit">Visit the Shop</a>
+      <a class="hero__tel" href="tel:+12623751920">262-375-1920</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEAD ============ -->
+<section class="section section--ivory lead" aria-labelledby="lead-heading">
+  <div class="wrap wrap--narrow lead__inner">
+    <p class="eyebrow reveal">Family owned in Cedarburg, Wisconsin</p>
+    <span class="rule rule--center reveal" aria-hidden="true"></span>
+    <p class="body-lg reveal">Wyndrose Fine Jewelry sits on Washington Avenue in historic downtown Cedarburg. Our in-house graduate gemologist and staff can help you find the right piece, whether it is for yourself or for someone else. We carry everything from engagement rings and wedding bands to pendants, watches, and gifts.</p>
+    <p class="body-lg reveal">This site will give you an idea of the quality we keep in the store. The selection changes constantly, so the best way to see it is to stop in.</p>
+    <h2 class="lead__line reveal" id="lead-heading">And if you do not find what you are looking for, we can design it.</h2>
+  </div>
+</section>
+
+<!-- ============ CUSTOM DESIGN ============ -->
+<section class="section section--cream custom" id="custom-design" aria-labelledby="custom-heading">
+  <span class="custom__watermark" aria-hidden="true">W</span>
+  <div class="wrap">
+
+    <div class="custom__top">
+      <div class="custom__intro">
+        <span class="rule reveal" aria-hidden="true"></span>
+        <h2 class="h2 reveal" id="custom-heading">Design something that does not exist yet</h2>
+        <p class="body-lg reveal">Come in with a finished idea or with no idea at all. Either way, you work directly with us, the owners, from the first conversation to the finished piece. We keep loose stones in every shape, color, and size in the shop, and we have the largest selection of loose gemstones in Wisconsin at our fingertips.</p>
+        <p class="reveal">We keep the process as hands-on as we can. Picking a design out of a catalog is one thing. Holding the parts, and seeing the exact components your piece will be made from, is another. You choose the stones yourself.</p>
+      </div>
+      <figure class="custom__figure reveal">
+        <div class="frame frame--45">
+          <img src="images/jewelry-stock-04.jpg" alt="A pear-cut diamond ring with a pave halo, resting on dark stone." loading="lazy" decoding="async">
+        </div>
+      </figure>
+    </div>
+
+    <ol class="steps">
+      <li class="card steps__item reveal">
+        <span class="card__rule" aria-hidden="true"></span>
+        <h3 class="card__title">Talk it through</h3>
+        <p class="card__body">Bring an idea or bring nothing. We work through it with you and you pick the stones by hand.</p>
+      </li>
+      <li class="card steps__item reveal">
+        <span class="card__rule" aria-hidden="true"></span>
+        <h3 class="card__title">See it before it exists</h3>
+        <p class="card__body">The goldsmith makes a rendering or a wax casting. We meet again and adjust until it is right.</p>
+      </li>
+      <li class="card steps__item reveal">
+        <span class="card__rule" aria-hidden="true"></span>
+        <h3 class="card__title">Wear it</h3>
+        <p class="card__body">The piece is cast and set in the metal you choose.</p>
+      </li>
+    </ol>
+
+    <div class="custom__body reveal">
+      <p>Once the idea is settled, the plans go to our goldsmith, who makes a preliminary rendering or a wax casting. We meet again and either change the design or approve it. Seeing it take shape is usually where everyone figures out what they actually want. Your decisions go back to the goldsmith, and the piece is cast and set in the metal you choose.</p>
+    </div>
+
+    <div class="answers">
+      <div class="answer reveal">
+        <h3 class="answer__q">How long does it take?</h3>
+        <p class="answer__a">Most pieces run 2 to 4 weeks start to finish. There are exceptions, but the large majority take less than a month to go from an idea to something you can wear.</p>
+      </div>
+      <div class="answer reveal">
+        <h3 class="answer__q">Does custom cost more?</h3>
+        <p class="answer__a">Usually, no. That surprises people. If you are thinking about designing a piece, call or come by and we can give you a real sense of price and turnaround.</p>
+      </div>
+    </div>
+
+    <div class="custom__cta reveal">
+      <a class="btn btn--primary" href="#visit">Start a Custom Piece</a>
+      <a class="link" href="tel:+12623751920">Or call 262-375-1920</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section section--ivory services" id="services" aria-labelledby="services-heading">
+  <div class="wrap">
+    <div class="services__head">
+      <span class="rule reveal" aria-hidden="true"></span>
+      <h2 class="h2 reveal" id="services-heading">A full-service shop</h2>
+      <p class="body-lg reveal">Most of what we do happens at the bench in the back, and most of it happens here rather than being shipped somewhere else.</p>
+    </div>
+
+    <ul class="svclist">
+      <li class="svclist__item reveal"><span class="svclist__name">Custom jewelry design</span><span class="svclist__note">designed with you, cast by our goldsmith</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Jewelry and watch repair</span><span class="svclist__note">full service, in house</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Watch battery replacement</span><span class="svclist__note">some done in just minutes</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Engraving</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Appraisals</span><span class="svclist__note">by our in-house Graduate Gemologist (GIA)</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Pearl and bead stringing</span><span class="svclist__note">in house</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Gold buying</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Jewelry cleaning and inspection</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Insurance replacements</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Wish lists</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Consultations</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Free layaway</span></li>
+      <li class="svclist__item reveal"><span class="svclist__name">Complimentary gift wrapping</span></li>
+    </ul>
+
+    <p class="services__close reveal">Gift certificates are always available. Call or stop in any time.</p>
+  </div>
+</section>
+
+<!-- ============ SELECTION ============ -->
+<section class="section section--cream selection" id="selection" aria-labelledby="selection-heading">
+  <div class="wrap selection__grid">
+    <div class="selection__text">
+      <span class="rule reveal" aria-hidden="true"></span>
+      <h2 class="h2 reveal" id="selection-heading">What we carry</h2>
+      <p class="body-lg reveal">The selection changes constantly. This is what is usually in the cases.</p>
+      <ul class="sellist">
+        <li class="reveal">Diamond jewelry</li>
+        <li class="reveal">Wedding bands</li>
+        <li class="reveal">Precious and semi-precious colored stones</li>
+        <li class="reveal">Lola inspirational medallions</li>
+        <li class="reveal">Traditional charms</li>
+        <li class="reveal">Pearl jewelry and add-a-pearl necklaces</li>
+        <li class="reveal">Children's jewelry</li>
+        <li class="reveal">Men's and women's watches</li>
+        <li class="reveal">Men's tie tacs, money clips, bracelets, and cuff links</li>
+        <li class="reveal">Loose gemstones</li>
+        <li class="reveal">Gold, silver, platinum, titanium, and tungsten jewelry</li>
+      </ul>
+      <p class="selection__close reveal">Stop in to see what is in the cases this week.</p>
+    </div>
+
+    <figure class="selection__figure reveal">
+      <div class="frame frame--45 frame--zoom">
+        <img class="zoom-garnet" src="images/services-garnet-pendant.jpg" alt="A garnet pendant in a white gold setting, suspended on a fine chain." loading="lazy" decoding="async">
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section section--ivory about" id="about" aria-labelledby="about-heading">
+  <div class="wrap about__grid">
+    <figure class="about__figure reveal">
+      <div class="frame frame--32">
+        <img src="images/about-stock-workbench.jpg" alt="Two hands resting together, one wearing a diamond engagement ring and wedding band." loading="lazy" decoding="async">
+      </div>
+    </figure>
+
+    <div class="about__text">
+      <p class="eyebrow reveal">Est. September 1, 1988</p>
+      <h2 class="h2 reveal" id="about-heading">Ann and Greg</h2>
+      <p class="body-lg reveal">Wyndrose is a family owned, full-service jeweler on Washington Avenue in downtown Cedarburg. Ann is our in-house graduate gemologist. Greg is the repair man, and works behind the scenes. Between them they have over 70 years of experience, which is another way of saying there is no job here too big or too small. Whether you need something fixed, something designed, or something appraised, it stays in our hands.</p>
+
+      <div class="promise reveal">
+        <h3 class="h3 promise__title">Our promise to you</h3>
+        <p>How Wyndrose came into existence is nothing short of a miracle, and we thank God for the opportunity and the blessing that this business and our customers are to us.</p>
+        <p>With gratitude and faith as the foundation of our humble jewelry store, we run the business on honesty, fairness, and love. Love is at the heart of everything we do, from mending a piece to helping you choose one. We take pride in every part of it, and we hope that shows in what you walk out with.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIAL ============ -->
+<section class="quoteband" aria-label="Customer testimonial">
+  <img class="quoteband__img" src="images/hero-snowflake-pendant.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+  <div class="quoteband__scrim"></div>
+  <div class="quoteband__grain" aria-hidden="true"></div>
+  <div class="wrap wrap--narrow quoteband__inner">
+    <span class="ornament reveal" aria-hidden="true"></span>
+    <blockquote class="quoteband__quote reveal">
+      <p>&ldquo;We worked directly with the owners to customize the exact rings that we wanted&hellip; I would definitely recommend them!&rdquo;</p>
+    </blockquote>
+    <p class="quoteband__cite reveal">Beth</p>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="section section--cream visit" id="visit" aria-labelledby="visit-heading">
+  <div class="wrap visit__grid">
+    <div class="visit__text">
+      <span class="rule reveal" aria-hidden="true"></span>
+      <h2 class="h2 reveal" id="visit-heading">Visit the shop</h2>
+      <p class="body-lg reveal">We are on Washington Avenue in downtown Cedarburg. Call or email with a question, or to make an appointment outside our posted hours.</p>
+
+      <div class="visit__details reveal">
+        <div class="visit__row">
+          <span class="visit__label">Address</span>
+          <span class="visit__value">W62N600 Washington Avenue<br>Cedarburg, WI 53012</span>
+        </div>
+        <div class="visit__row">
+          <span class="visit__label">Phone</span>
+          <span class="visit__value"><a class="link" href="tel:+12623751920">262-375-1920</a></span>
+        </div>
+        <div class="visit__row">
+          <span class="visit__label">Email</span>
+          <span class="visit__value"><a class="link" href="mailto:info@wyndrosefinejewelry.com">info@wyndrosefinejewelry.com</a></span>
+        </div>
+      </div>
+
+      <dl class="hours reveal">
+        <div class="hours__row"><dt>Wednesday to Friday</dt><dd>10:00 AM to 4:00 PM</dd></div>
+        <div class="hours__row"><dt>Saturday</dt><dd>10:00 AM to 1:00 PM</dd></div>
+        <div class="hours__row"><dt>Sunday to Tuesday</dt><dd>Closed</dd></div>
+        <div class="hours__row hours__row--note"><dt>Or by appointment</dt><dd></dd></div>
+      </dl>
+
+      <div class="visit__cta reveal">
+        <a class="btn btn--primary" href="tel:+12623751920">Call 262-375-1920</a>
+        <a class="link" href="mailto:info@wyndrosefinejewelry.com">info@wyndrosefinejewelry.com</a>
+      </div>
+    </div>
+
+    <figure class="visit__figure reveal">
+      <div class="frame frame--45">
+        <img class="storefront" src="images/storefront-cedarburg.jpg" alt="The Wyndrose Fine Jewelry storefront, a white clapboard building with a claret awning carrying the script wordmark." loading="lazy" decoding="async">
+      </div>
+      <figcaption class="caption">W62N600 Washington Avenue, downtown Cedarburg</figcaption>
+    </figure>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__grain" aria-hidden="true"></div>
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <img class="footer__logo" src="images/logo.png" alt="Wyndrose Fine Jewelry" width="500" height="205" loading="lazy" decoding="async">
+      <p class="footer__note">A family owned, full-service jeweler in historic downtown Cedarburg. Est. September 1, 1988.</p>
+    </div>
+
+    <div class="footer__col">
+      <h2 class="footer__h">Find us</h2>
+      <p class="footer__p">W62N600 Washington Avenue<br>Cedarburg, WI 53012</p>
+      <p class="footer__p"><a class="footer__link" href="tel:+12623751920">262-375-1920</a></p>
+      <p class="footer__p"><a class="footer__link" href="mailto:info@wyndrosefinejewelry.com">info@wyndrosefinejewelry.com</a></p>
+    </div>
+
+    <div class="footer__col">
+      <h2 class="footer__h">Hours</h2>
+      <p class="footer__p">Wednesday to Friday<br>10:00 AM to 4:00 PM</p>
+      <p class="footer__p">Saturday<br>10:00 AM to 1:00 PM</p>
+      <p class="footer__p">Sunday to Tuesday<br>Closed</p>
+      <p class="footer__p footer__p--muted">Or by appointment</p>
+    </div>
+  </div>
+
+  <div class="wrap footer__base">
+    <p>&copy; Wyndrose Fine Jewelry, Inc.</p>
+    <p>Graduate Gemologist (GIA) on site</p>
+  </div>
+</footer>
+
+</div><!-- /.site -->
+
+<script src="script.js"></script>
+</body>
+</html>
